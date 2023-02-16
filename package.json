@@ -1,0 +1,23 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "Project for http course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JelenaGajic/webcrawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JelenaGajic/webcrawler/issues"
+  },
+  "homepage": "https://github.com/JelenaGajic/webcrawler#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
