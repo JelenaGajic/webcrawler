@@ -15,6 +15,7 @@ test('normalizeURL trailing slashes', () => {
     expect(actual).toEqual(expected)
 })
 
+// URL Cnstructor is doing it for us
 test('normalizeURL capitals', () => {
     const input = 'https://BOOT.dev/path/';
     const actual = normalizeURL(input)
