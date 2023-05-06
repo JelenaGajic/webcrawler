@@ -17,8 +17,11 @@ async function main() {
     console.log(`crawling started of: ${baseURL}`);
     const pages = await crawlPage(baseURL, baseURL, {})
 
-    printReport(pages)
-
+    if (Object.keys(pages).length) {
+        printReport(pages)
+    } else {
+        console.log('No pages to crawl due to the fetch error')
+    }
 }
 
 main()

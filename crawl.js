@@ -25,7 +25,7 @@ async function crawlPage(baseURL, currentURL, pages) {
 
         if (resp.status > 399) {
             console.log(`error in fetch with status code: ${resp.status} on page: ${currentURL}`)
-            return pages
+            return {}
         }
 
         const contentType = resp.headers.get('content-type')
